@@ -9,6 +9,9 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: url('../images/background.jpg') fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
@@ -52,6 +55,8 @@ a{
     justify-content: space-around;
     padding: 10px;
     word-wrap: break-word;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .recipe {
@@ -69,6 +74,8 @@ a{
     border-radius: 5px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .title img{
@@ -86,6 +93,8 @@ a{
     justify-content: space-around;
     padding: 10px;
     word-wrap: break-word;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .ingredients {
@@ -97,6 +106,8 @@ a{
     justify-content: space-around;
     padding: 10px;
     word-wrap: break-word;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .steps {
@@ -108,6 +119,8 @@ a{
     justify-content: space-around;
     padding: 10px;
     word-wrap: break-word;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .links {
@@ -118,4 +131,6 @@ a{
     padding: 10px;
     word-wrap: break-word;
     text-align: center;
+    /* background: transparent;
+    backdrop-filter: blur(20px); */
 }
